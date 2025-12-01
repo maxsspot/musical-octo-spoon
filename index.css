@@ -22,10 +22,6 @@ body {
 	pointer-events:none;
 }
 
-#rulesTitle {
-	padding-top:20px;
-}
-
 #rules {
     background-color:#F9FBFF;
     width:300px;
@@ -34,6 +30,7 @@ body {
     border-radius:10px;
     left:50%;
     transform:translateX(-50%);
+	padding-top:20px;
     padding-bottom:20px;
 	top:-20px;
 }
