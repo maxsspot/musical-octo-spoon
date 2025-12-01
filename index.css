@@ -82,7 +82,7 @@ button, #openRules {
     width:230px;
     padding:10px;
     border:black solid 1px;
-    border-radius:50px;
+    border-radius:10px;
 }
 
 #startChatting, #acceptRules {
