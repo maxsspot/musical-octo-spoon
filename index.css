@@ -22,6 +22,10 @@ body {
 	pointer-events:none;
 }
 
+#rulesTitle {
+	padding-top:20px;
+}
+
 #rules {
     background-color:#F9FBFF;
     width:300px;
