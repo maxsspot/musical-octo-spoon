@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "index.css">
+		<title>Page Title</title>
+	</head>
+	<body>
+		<div id = "coverBg">
+			<br>
+			<div id = "rules">
+				<!--<button id = "closeRules" onclick = "closeRules()">×</button>-->
+				<h1 id = "rulesTitle">Rules</h1>
+				<p class = "rule"><b>Be Kind. </b>Be kind to those you are learning with. Do not harass, threaten, or bully other learners.</p><br>
+				<p class = "rule"><b>Keep Information Private. </b>Do not share your own personal information or the information of others.</p><br>
+				<button id = "acceptRules" onclick = "closeRules()">I Will Follow These Rules</button>
+			</div>
+		</div>
+		<div id = "introPage">
+			<br><h1 id = "title">Get To Know You</h1><br>
+			<div id = "info">
+				<!--<label class="infoLabel">Name</label>
+				<input id = "name" class = "infoField" placeholder="Do NOT use your real name..."/>
+				<br><br>-->
+				<label class="infoLabel">I speak...</label>
+				<input id = "currentLanguage" class = "infoField" placeholder="Your native language..."/>
+				<br><br>
+				<label class="infoLabel">I'm learning...</label>
+				<input id = "learningLanguage" class = "infoField" placeholder="Singular language you are learning..." />
+				<br><br>
+			</div>
+			<button id = "startChatting">Start Chatting</button><br><br>
+			<span id = "openRules" onclick = "openRules()">RULES</span>
+		</div>
+    <script src = "index.js"></script>
+	</body>
+</html>
